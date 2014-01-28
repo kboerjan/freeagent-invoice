@@ -7,3 +7,5 @@ My code will however run as a standalone, but you may want to get the original f
 
 Note that the HTML included in this package will not be used when you upload your theme. It is for local playing around only. The real HTML is all controlled by FreeAgent, so bear this in mind when doing your styles.
 
+Bear in mind that any images referenced locally here will need to be absolute paths to something online instead when you add it to FreeAgent. In my CSS there is one file referenced in sj.css, line 37.
+
