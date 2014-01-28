@@ -12,6 +12,6 @@ Bear in mind that any images referenced locally here will need to be absolute pa
 
 ##Screenshot
 
-![Screenshot of theme](screenshot.png "Screenshot of theme")
+![Screenshot of theme](screenshot.jpg "Screenshot of theme")
 
 

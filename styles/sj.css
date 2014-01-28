@@ -32,10 +32,14 @@ Adapted by Sally Jenkinson
 #invoice-other{text-align:right}
 #payment-details strong, #invoice-other strong{font-weight:normal}
 
+.fn, .org {
+    font-weight:bold;
+}
+
 /*=========================== LAYOUT =========================*/
 
 #invoice{padding:0 1cm 1cm 1cm;background:#fff url('../images/headerstripe.png') left top repeat-x}
-#invoice-header #company-address {float:right; width:250px;clear:right; margin-top:10px }
+#invoice-header #company-address {float:right; width:250px;clear:right; margin-top:10px;}
 #invoice-header h1{float:left; width:350px; color:#000; margin:5px 0 0 0}
 #invoice-header{padding-top:1cm; }
 #invoice-header .logo {float:right; width:200px; }
@@ -52,33 +56,43 @@ Adapted by Sally Jenkinson
 #payment-terms{display:none}
 #invoice-amount {margin: 2em 0 2em 0; clear: both;}
 
-#payment-details{width:300px; float:left; margin-bottom:5mm   }
-#invoice-other{width:330px;clear:both; float:right;margin-bottom:5mm   }
+#payment-details{width:300px; float:left; margin-bottom:5mm;}
+#invoice-other{width:330px;clear:both; float:right;margin-bottom:5mm;}
 #invoice-other h2, #payment-details h2 {margin-bottom: 1mm;}
 
-#comments{clear:both; padding:9px 0.4cm 9px 0.4cm; background:#eee; border:0px; vertical-align:bottom; line-height:1.2;zoom:1;
--webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px;
+#comments{
+    clear:both; padding:9px 0.4cm 9px 0.4cm; background:#eee; border:0px; vertical-align:bottom; line-height:1.2;zoom:1;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 
 #comments p {padding:10px 0;}
 
 /*=========================== TABLES =========================*/
 
-#invoice table { border-collapse:collapse; width:100%;clear:both;}
-#invoice table th {text-align:left;padding:4px 4px}
-#invoice #header_row th{background:#910000; color:#fff; border-top:1px solid #666;}
-#invoice-amount td.action{border-bottom:0}
+#invoice table { border-collapse:collapse; width:100%; clear:both;}
+#invoice table th {text-align:left; padding:10px 4px;}
+#invoice #header_row th{background:#910000; color:#fff; border-top:0;}
+#invoice-amount td.action{border-bottom:0;}
 #invoice-amount tr.odd td{background:#fff;} 
 
-#invoice-amount .quantity_th{border-left:1px solid #666}
-#invoice-amount .subtotal_th{border-right:1px solid #666}
+#invoice-amount .quantity_th{
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    border-radius: 5px 0 0 5px;
+    padding-left:7px;
+}
+#invoice-amount .subtotal_th{
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0;
+    padding-right:7px;
+}
 
 #invoice-amount #total_tr td{border-bottom:0}
 #invoice-amount #vat_tr td{border-bottom:1px solid #999}
-#invoice-amount tbody{border-right:1px solid #C9C9C9}
-#invoice-amount tbody td {white-space: nowrap;margin: 0;vertical-align: center; border-bottom:1px solid #C9C9C9;border-left:1px solid #C9C9C9;}
+#invoice-amount tbody td {white-space: nowrap;margin: 0;vertical-align: center; border-bottom:1px solid #C9C9C9;}
 
 #invoice-amount td {margin:0; padding: 10px 5px; vertical-align: top; }
 #invoice-amount td.item_r{text-align: right;}
