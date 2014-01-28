@@ -9,7 +9,10 @@ Note that the HTML included in this package will not be used when you upload you
 
 Bear in mind that any images referenced locally here will need to be absolute paths to something online instead when you add it to FreeAgent. In my CSS there is one file referenced in sj.css, line 37.
 
+<<<<<<< HEAD
 ##Screenshot
 
 ![Screenshot of theme](screenshot.png "Screenshot of theme")
 
+=======
+>>>>>>> e0af453997410664554a0bf59e048069aa44dff6
