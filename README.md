@@ -14,4 +14,4 @@ Bear in mind that any images referenced locally here will need to be absolute pa
 
 ![Screenshot of theme](screenshot.jpg "Screenshot of theme")
 
-
+License: http://creativecommons.org/licenses/by/4.0/
